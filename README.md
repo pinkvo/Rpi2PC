@@ -1,6 +1,8 @@
 # Rpi2PC
 Send timestamp/data from Raspberry to PC
 
+Both, Raspberryp PI and PC have to be in the same wifi.
+
 In order to send data from Raspberry Pi to a PC a python file (server_rpi.py) on the Raspberry Pi is required and a python file (client_PC.py) on the PC is required.
 On the Rpi run sudo python server_rpi.py
 -> every 3 seconds a message with the timestamp will be displayed
